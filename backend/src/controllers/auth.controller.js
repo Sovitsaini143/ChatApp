@@ -1,4 +1,4 @@
-import { generateToken } from "../../lib/utils.js";
+import { generateToken } from "../lib/utils.js"
 import User from '../src/models/user.model.js'
 import bcrypt from "bcryptjs";
 import cloudinary from "../../lib/cloudinary.js";
